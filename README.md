@@ -14,12 +14,8 @@
 
 ## Installation
 
-### 1. Create Workspace
-```bash
-mkdir
-
 ### 1. Clone the Repository
 
 ```bash
-git clone 
-cd ENPM673_turtlebot_perception_challenge
+git clone https://github.com/ChandhanSaai/ROS_2_TurtleBot_perception_project.git
+cd ROS_2_TurtleBot_perception_project
