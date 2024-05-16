@@ -23,7 +23,7 @@ cd ROS_2_TurtleBot_perception_project/
 # build and install the package
 export TURTLEBOT3_MODEL=waffle
 source /opt/ros/humble/setup.bash 
-colcon build --symlink-install --packages-select enpm673_final_proj
+colcon build --symlink-install 
 
 ```
 
