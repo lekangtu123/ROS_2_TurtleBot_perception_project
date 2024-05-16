@@ -5,12 +5,13 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# Find dependencies
+# find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(gazebo REQUIRED)
+
 
 ##############################
 # C++ node
@@ -32,14 +33,14 @@ install(TARGETS cpp_enpm673_final_proj
 # Python node
 ##############################
 # Install Python modules
-ament_python_install_package(${PROJECT_NAME})
+ament_python_install_package(enpm673_module)
 
 # Install python executable
 install(PROGRAMS
   scripts/enpm673_final_proj_main.py
   scripts/findhorizonline.py
   DESTINATION lib/${PROJECT_NAME}
-)
+  )
 
 install(FILES
   scripts/sto.pt
@@ -53,7 +54,7 @@ install(FILES
 install(FILES
   launch/enpm673_world.launch.py
   DESTINATION share/${PROJECT_NAME}/launch/
-)
+  )
 
 ##############################
 # Animated_box gazebo plugin
@@ -67,20 +68,20 @@ install(TARGETS animated_box
   DESTINATION lib/${PROJECT_NAME})
 
 ##############################
-# Gazebo resources
+# Gazebo resouces
 ##############################
 # Install gazebo world files
 install(FILES
   worlds/enpm673.world
   worlds/animated_box.world
   DESTINATION share/${PROJECT_NAME}/worlds/
-)
+  )
 
 # Install gazebo model files
 install(DIRECTORY
   models
   DESTINATION share/${PROJECT_NAME}/
-)
+  )
 
 ##############################
 # Create ROS2 package
