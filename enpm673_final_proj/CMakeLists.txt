@@ -32,7 +32,7 @@ install(TARGETS cpp_enpm673_final_proj
 # Python node
 ##############################
 # Install Python modules
-ament_python_install_package(enpm673_final_proj)
+ament_python_install_package(${PROJECT_NAME})
 
 # Install python executable
 install(PROGRAMS
