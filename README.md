@@ -14,8 +14,12 @@
 
 ## Installation
 
+### 1. Create Workspace
+```bash
+mkdir
+
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your_username/ENPM673_turtlebot_perception_challenge.git
+git clone 
 cd ENPM673_turtlebot_perception_challenge
