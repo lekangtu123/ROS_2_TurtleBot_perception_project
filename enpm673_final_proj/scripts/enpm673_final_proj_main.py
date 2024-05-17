@@ -13,6 +13,8 @@ import math
 import matplotlib.pyplot as plt
 import time
 import os
+from launch_ros.substitutions import FindPackageShare
+
 
 # Record the start time
 start_time = time.time()
@@ -21,14 +23,10 @@ class ImageSubscriber(Node):
     def __init__(self):
         super().__init__('image_subscriber')
         
-        # Determine the directory containing this script
-        script_dir = os.path.dirname(__file__)
+        pkg_share = FindPackageShare(package='enpm673_final_proj').find('enpm673_final_proj')
+        model_path = os.path.join(pkg_share, 'models',"sto.pt")
 
-        # Construct the full path to 'sto.pt'
-        sto_path = os.path.join(script_dir, 'scripts', 'sto.pt')
 
-        # Load the file (example using PyTorch)
-        model = torch.load(sto_path)
         
         # Initialize the CvBridge and flags
         self.bridge = CvBridge()
@@ -49,7 +47,7 @@ class ImageSubscriber(Node):
         self.publisher = self.create_publisher(Twist, 'cmd_vel', 10)
         
         # Load the YOLO model for stop sign detection
-        self.stop_sign_model = YOLO(sto_path)
+        self.stop_sign_model = YOLO(model_path)
         self.class_names = ["0"]
         self.lk_params = dict(winSize=(15, 15), maxLevel=2, criteria=(cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03))
         self.feature_params = dict(maxCorners=100, qualityLevel=0.1, minDistance=5, blockSize=5)

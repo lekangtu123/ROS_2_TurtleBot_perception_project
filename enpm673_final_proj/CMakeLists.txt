@@ -44,10 +44,7 @@ install(PROGRAMS
   DESTINATION lib/${PROJECT_NAME}
 )
 
-install(FILES
-  scripts/sto.pt
-  DESTINATION lib/${PROJECT_NAME}/scripts
-)
+
 
 ##############################
 # ROS2 Launch 
