@@ -17,6 +17,7 @@
 ### 1. Clone the Repository
 
 ```bash
+cd
 git clone https://github.com/ChandhanSaai/ROS_2_TurtleBot_perception_project.git
 cd ROS_2_TurtleBot_perception_project/
 
@@ -39,6 +40,7 @@ ros2 launch enpm673_final_proj enpm673_world.launch.py "verbose:=true"
 ### 3. Run the Python Node
 Open a new terminal and run the below command.
 ```bash
+cd
 export TURTLEBOT3_MODEL=waffle
 cd ROS_2_TurtleBot_perception_project/
 source install/setup.bash
