@@ -49,3 +49,8 @@ export TURTLEBOT3_MODEL=waffle
 source install/setup.bash
 ros2 run enpm673_final_proj enpm673_final_proj_main.py
 ```
+## Output
+- Gazebo_implementation
+![Gazebo](Gazebo_implementation.mp4)
+- Real World Implementation
+![Real_world](Real_world_implementation_video.mp4)
