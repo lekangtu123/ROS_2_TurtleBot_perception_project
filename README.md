@@ -54,4 +54,4 @@ ros2 run enpm673_final_proj enpm673_final_proj_main.py
 - 
 ![Gazebo](Gazebo_implementation_gif.gif)
 - Real World Implementation
-![Real_world](Real_world_implementation_video.mp4)
+![Real_world](Real_world_implementation_gif.gif)
