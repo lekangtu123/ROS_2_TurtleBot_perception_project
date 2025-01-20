@@ -50,7 +50,7 @@ source install/setup.bash
 ros2 run enpm673_final_proj enpm673_final_proj_main.py
 ```
 ## Output
-- Gazebo_implementation
+- Gazebo implementation
 - 
 ![Gazebo](Gazebo_implementation_gif.gif)
 - Real World Implementation
