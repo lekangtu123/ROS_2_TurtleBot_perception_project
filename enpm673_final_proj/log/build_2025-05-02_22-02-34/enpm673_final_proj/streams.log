@@ -1,0 +1,219 @@
+[0.017s] Invoking command in '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj -- -j8 -l8
+[0.086s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.088s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.088s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.088s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.088s]   the cmake_policy command to set the policy and suppress this warning.
+[0.088s] 
+[0.088s] Call Stack (most recent call first):
+[0.088s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.088s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.088s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.088s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.088s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.088s]   CMakeLists.txt:10 (find_package)
+[0.089s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.089s] [0m
+[0.107s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.163s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.170s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.209s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.386s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.387s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.404s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.536s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[0.536s] -- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)
+[0.544s] [33mCMake Warning (dev) at /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake:441 (message):
+[0.544s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.544s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.544s]   problems in calling code that expects `find_package` result variables
+[0.544s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.544s] Call Stack (most recent call first):
+[0.544s]   /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPkgConfig.cmake:114 (find_package_handle_standard_args)
+[0.544s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.545s]   /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)
+[0.545s]   /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[0.545s]   /opt/ros/galactic/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.545s]   /opt/ros/galactic/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)
+[0.545s]   CMakeLists.txt:14 (find_package)
+[0.545s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.545s] [0m
+[0.575s] [33mCMake Warning (dev) at /usr/share/dart/cmake/DARTFindBoost.cmake:24 (find_package):
+[0.576s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.576s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.576s]   set the policy and suppress this warning.
+[0.576s] 
+[0.576s] Call Stack (most recent call first):
+[0.576s]   /usr/share/dart/cmake/dart_dartComponent.cmake:6 (include)
+[0.576s]   /usr/share/dart/cmake/DARTConfig.cmake:63 (include)
+[0.576s]   /usr/share/dart/cmake/DARTConfig.cmake:123 (dart_traverse_components)
+[0.576s]   /usr/share/dart/cmake/DARTConfig.cmake:171 (dart_package_init)
+[0.576s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:166 (find_package)
+[0.576s]   /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)
+[0.576s]   /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[0.576s]   /opt/ros/galactic/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.576s]   /opt/ros/galactic/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)
+[0.576s]   CMakeLists.txt:14 (find_package)
+[0.576s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.576s] [0m
+[0.587s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart
+[0.597s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:197 (find_package):
+[0.597s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.597s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.597s]   set the policy and suppress this warning.
+[0.597s] 
+[0.597s] Call Stack (most recent call first):
+[0.597s]   /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)
+[0.597s]   /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[0.597s]   /opt/ros/galactic/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.597s]   /opt/ros/galactic/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)
+[0.597s]   CMakeLists.txt:14 (find_package)
+[0.597s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.597s] [0m
+[0.621s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1")
+[0.622s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.627s] -- Searching for dependencies of ignition-math6
+[0.629s] -- Looking for OGRE...
+[0.635s] -- Found Ogre Ghadamon (1.9.0)
+[0.635s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.635s] [33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:309 (find_package):
+[0.636s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.636s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.636s]   set the policy and suppress this warning.
+[0.636s] 
+[0.636s] Call Stack (most recent call first):
+[0.636s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)
+[0.636s]   /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)
+[0.636s]   /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[0.636s]   /opt/ros/galactic/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.636s]   /opt/ros/galactic/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)
+[0.636s]   CMakeLists.txt:14 (find_package)
+[0.636s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.636s] [0m
+[0.641s] [33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package):
+[0.641s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.641s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.641s]   set the policy and suppress this warning.
+[0.641s] 
+[0.641s] Call Stack (most recent call first):
+[0.641s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)
+[0.641s]   /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)
+[0.641s]   /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[0.641s]   /opt/ros/galactic/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.641s]   /opt/ros/galactic/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)
+[0.641s]   CMakeLists.txt:14 (find_package)
+[0.641s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.642s] [0m
+[0.647s] -- Looking for OGRE_Paging...
+[0.647s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.647s] -- Looking for OGRE_Terrain...
+[0.647s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.647s] -- Looking for OGRE_Property...
+[0.647s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.647s] -- Looking for OGRE_RTShaderSystem...
+[0.647s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.647s] -- Looking for OGRE_Volume...
+[0.648s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.648s] -- Looking for OGRE_Overlay...
+[0.648s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.890s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.890s] -- Looking for ignition-transport8 -- found version 8.3.0
+[0.891s] -- Searching for dependencies of ignition-transport8
+[0.909s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3")
+[0.920s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.925s] -- Checking for module 'libzmq >= 4'
+[0.943s] --   Found libzmq, version 4.3.2
+[0.999s] -- Checking for module 'uuid'
+[1.016s] --   Found uuid, version 2.34.0
+[1.065s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.066s] -- Searching for dependencies of ignition-msgs5
+[1.085s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.091s] -- Checking for module 'tinyxml2'
+[1.111s] --   Found tinyxml2, version 6.2.0
+[1.164s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.165s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.165s] -- Searching for dependencies of ignition-common3
+[1.165s] -- Looking for dlfcn.h - found
+[1.165s] -- Looking for libdl - found
+[1.179s] -- Searching for <ignition-common3> component [graphics]
+[1.181s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[1.181s] -- Searching for dependencies of ignition-common3-graphics
+[1.182s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.184s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.184s] -- Searching for dependencies of ignition-fuel_tools4
+[1.230s] -- Checking for module 'jsoncpp'
+[1.249s] --   Found jsoncpp, version 1.7.4
+[1.304s] -- Checking for module 'libzip'
+[1.321s] --   Found libzip, version 1.5.1
+[1.370s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.371s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.371s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.372s] -- Gazebo version: 11.11
+[1.377s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.490s] -- Found cv_bridge: 3.1.3 (/opt/ros/galactic/share/cv_bridge/cmake)
+[1.624s] -- Configuring done (1.5s)
+[1.642s] -- Generating done (0.0s)
+[1.643s] -- Build files have been written to: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj
+[1.670s] [ 50%] Built target cpp_enpm673_final_proj
+[1.670s] [ 50%] Built target ament_cmake_python_symlink_enpm673_module
+[1.698s] [ 75%] [32mBuilding CXX object CMakeFiles/animated_box.dir/src/animated_box.cpp.o[0m
+[1.904s] running egg_info
+[1.905s] writing enpm673_module.egg-info/PKG-INFO
+[1.905s] writing dependency_links to enpm673_module.egg-info/dependency_links.txt
+[1.906s] writing top-level names to enpm673_module.egg-info/top_level.txt
+[1.940s] reading manifest file 'enpm673_module.egg-info/SOURCES.txt'
+[1.941s] writing manifest file 'enpm673_module.egg-info/SOURCES.txt'
+[1.968s] [ 75%] Built target ament_cmake_python_build_enpm673_module_egg
+[13.695s] [100%] [32m[1mLinking CXX shared library libanimated_box.so[0m
+[13.835s] [100%] Built target animated_box
+[13.857s] Invoked command in '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj -- -j8 -l8
+[14.041s] Invoking command in '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj
+[14.101s] -- Install configuration: ""
+[14.101s] -- Execute custom install script
+[14.101s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/enpm673_final_proj/cpp_enpm673_final_proj
+[14.105s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/environment/pythonpath.sh
+[14.109s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/environment/pythonpath.dsv
+[14.112s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages//enpm673_module.egg-info/PKG-INFO
+[14.116s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages//enpm673_module.egg-info/SOURCES.txt
+[14.120s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages//enpm673_module.egg-info/dependency_links.txt
+[14.123s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages//enpm673_module.egg-info/top_level.txt
+[14.128s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module/__init__.py
+[14.131s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module/enpm673_final_proj.py
+[14.135s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/enpm673_final_proj/enpm673_final_proj_main.py
+[14.139s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/enpm673_final_proj/findhorizonline.py
+[14.142s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/launch//enpm673_world.launch.py
+[14.145s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/enpm673_final_proj/libanimated_box.so
+[14.148s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/worlds//enpm673.world
+[14.152s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/worlds//animated_box.world
+[14.156s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/floor_tile/model.config
+[14.159s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/floor_tile/model.sdf
+[14.162s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/lane_markings/model.config
+[14.165s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/lane_markings/model.sdf
+[14.169s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/paper_letter_size/model.config
+[14.173s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/paper_letter_size/model.sdf
+[14.176s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/sto.pt
+[14.181s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/textured_floor/model.config
+[14.184s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/textured_floor/model.sdf
+[14.187s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/umd_turtlebot3_waffle_pi/model.config
+[14.190s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/umd_turtlebot3_waffle_pi/model.sdf
+[14.194s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/ament_index/resource_index/package_run_dependencies/enpm673_final_proj
+[14.197s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/ament_index/resource_index/parent_prefix_path/enpm673_final_proj
+[14.200s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/environment/ament_prefix_path.sh
+[14.203s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/environment/ament_prefix_path.dsv
+[14.207s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/environment/path.sh
+[14.210s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/environment/path.dsv
+[14.213s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/local_setup.bash
+[14.218s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/local_setup.sh
+[14.221s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/local_setup.zsh
+[14.224s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/local_setup.dsv
+[14.228s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/package.dsv
+[14.233s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/ament_index/resource_index/packages/enpm673_final_proj
+[14.239s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/cmake/enpm673_final_projConfig.cmake
+[14.242s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/cmake/enpm673_final_projConfig-version.cmake
+[14.244s] -- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/package.xml
+[14.278s] Listing '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module'...
+[14.278s] Compiling '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module/__init__.py'...
+[14.278s] Compiling '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module/enpm673_final_proj.py'...
+[14.302s] Invoked command in '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj

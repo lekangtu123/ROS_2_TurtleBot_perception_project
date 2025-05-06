@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj/libanimated_box.so" "TARGETS" "animated_box" "DESTINATION" "lib/enpm673_final_proj")

@@ -1,0 +1,1 @@
+/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj/ament_cmake_environment_hooks/local_setup.bash

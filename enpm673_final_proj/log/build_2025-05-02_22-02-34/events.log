@@ -1,0 +1,370 @@
+[0.000000] (-) TimerEvent: {}
+[0.001169] (enpm673_final_proj) JobQueued: {'identifier': 'enpm673_final_proj', 'dependencies': OrderedDict()}
+[0.001282] (enpm673_final_proj) JobStarted: {'identifier': 'enpm673_final_proj'}
+[0.011069] (enpm673_final_proj) JobProgress: {'identifier': 'enpm673_final_proj', 'progress': 'cmake'}
+[0.012358] (enpm673_final_proj) JobProgress: {'identifier': 'enpm673_final_proj', 'progress': 'build'}
+[0.013299] (enpm673_final_proj) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '--build', '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj', '--', '-j8', '-l8'], 'cwd': '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '2014'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('OLDPWD', '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1913'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b3984497af4d44736d47b3168153e3c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:61925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/leoo/.gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2049,unix/ubuntu:/tmp/.ICE-unix/2049'), ('INVOCATION_ID', 'b2963a75ad7047ea873a8edcd9f63537'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/45e46f81_139f_4cf2_94e1_f06e77aa243a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b3984497af4d44736d47b3168153e3c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.087375] (enpm673_final_proj) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.088609] (enpm673_final_proj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.088937] (enpm673_final_proj) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.089059] (enpm673_final_proj) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.089164] (enpm673_final_proj) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.089265] (enpm673_final_proj) StderrLine: {'line': b'\n'}
+[0.089365] (enpm673_final_proj) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.089467] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.089568] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.089619] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.089665] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.089715] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.089762] (enpm673_final_proj) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[0.089808] (enpm673_final_proj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.089854] (enpm673_final_proj) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099788] (-) TimerEvent: {}
+[0.107789] (enpm673_final_proj) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.163730] (enpm673_final_proj) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.171614] (enpm673_final_proj) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.200155] (-) TimerEvent: {}
+[0.207258] (enpm673_final_proj) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.210281] (enpm673_final_proj) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.300399] (-) TimerEvent: {}
+[0.337300] (enpm673_final_proj) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.387324] (enpm673_final_proj) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.388352] (enpm673_final_proj) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.400691] (-) TimerEvent: {}
+[0.405188] (enpm673_final_proj) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.500848] (-) TimerEvent: {}
+[0.536766] (enpm673_final_proj) StdoutLine: {'line': b'-- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)\n'}
+[0.537036] (enpm673_final_proj) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)\n'}
+[0.545231] (enpm673_final_proj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake:441 (message):\n'}
+[0.545434] (enpm673_final_proj) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.545491] (enpm673_final_proj) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.545538] (enpm673_final_proj) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.545587] (enpm673_final_proj) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.545635] (enpm673_final_proj) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.545682] (enpm673_final_proj) StderrLine: {'line': b'  /home/leoo/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.30/Modules/FindPkgConfig.cmake:114 (find_package_handle_standard_args)\n'}
+[0.545730] (enpm673_final_proj) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.545777] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)\n'}
+[0.545823] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[0.545870] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.545917] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)\n'}
+[0.545965] (enpm673_final_proj) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.546012] (enpm673_final_proj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.546058] (enpm673_final_proj) StderrLine: {'line': b'\x1b[0m\n'}
+[0.576590] (enpm673_final_proj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/dart/cmake/DARTFindBoost.cmake:24 (find_package):\n'}
+[0.576782] (enpm673_final_proj) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[0.576834] (enpm673_final_proj) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[0.576882] (enpm673_final_proj) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.576930] (enpm673_final_proj) StderrLine: {'line': b'\n'}
+[0.576976] (enpm673_final_proj) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.577034] (enpm673_final_proj) StderrLine: {'line': b'  /usr/share/dart/cmake/dart_dartComponent.cmake:6 (include)\n'}
+[0.577083] (enpm673_final_proj) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:63 (include)\n'}
+[0.577129] (enpm673_final_proj) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:123 (dart_traverse_components)\n'}
+[0.577175] (enpm673_final_proj) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:171 (dart_package_init)\n'}
+[0.577222] (enpm673_final_proj) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:166 (find_package)\n'}
+[0.577268] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)\n'}
+[0.577315] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[0.577361] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.577413] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)\n'}
+[0.577459] (enpm673_final_proj) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.577505] (enpm673_final_proj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.577555] (enpm673_final_proj) StderrLine: {'line': b'\x1b[0m\n'}
+[0.588204] (enpm673_final_proj) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart\n'}
+[0.597646] (enpm673_final_proj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:197 (find_package):\n'}
+[0.597904] (enpm673_final_proj) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[0.597956] (enpm673_final_proj) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[0.598002] (enpm673_final_proj) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.598047] (enpm673_final_proj) StderrLine: {'line': b'\n'}
+[0.598092] (enpm673_final_proj) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.598141] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)\n'}
+[0.598186] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[0.598230] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.598276] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)\n'}
+[0.598323] (enpm673_final_proj) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.598370] (enpm673_final_proj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.598419] (enpm673_final_proj) StderrLine: {'line': b'\x1b[0m\n'}
+[0.601106] (-) TimerEvent: {}
+[0.621806] (enpm673_final_proj) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1")\n'}
+[0.623453] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.628351] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.630074] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.636107] (enpm673_final_proj) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.636349] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.636709] (enpm673_final_proj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:309 (find_package):\n'}
+[0.636797] (enpm673_final_proj) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[0.636863] (enpm673_final_proj) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[0.636912] (enpm673_final_proj) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.636958] (enpm673_final_proj) StderrLine: {'line': b'\n'}
+[0.637004] (enpm673_final_proj) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.637055] (enpm673_final_proj) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)\n'}
+[0.637103] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)\n'}
+[0.637151] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[0.637204] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.637250] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)\n'}
+[0.637297] (enpm673_final_proj) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.637344] (enpm673_final_proj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.637392] (enpm673_final_proj) StderrLine: {'line': b'\x1b[0m\n'}
+[0.641979] (enpm673_final_proj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package):\n'}
+[0.642173] (enpm673_final_proj) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[0.642228] (enpm673_final_proj) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[0.642277] (enpm673_final_proj) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.642324] (enpm673_final_proj) StderrLine: {'line': b'\n'}
+[0.642375] (enpm673_final_proj) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.642422] (enpm673_final_proj) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)\n'}
+[0.642471] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:2 (find_package)\n'}
+[0.642519] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[0.642565] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.642626] (enpm673_final_proj) StderrLine: {'line': b'  /opt/ros/galactic/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)\n'}
+[0.642674] (enpm673_final_proj) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.642721] (enpm673_final_proj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.642768] (enpm673_final_proj) StderrLine: {'line': b'\x1b[0m\n'}
+[0.647286] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.648070] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.648197] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.648301] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.648405] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.648572] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.648640] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.648687] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.648742] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.648787] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.648835] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.648884] (enpm673_final_proj) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.701669] (-) TimerEvent: {}
+[0.802479] (-) TimerEvent: {}
+[0.890720] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.891078] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[0.891770] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.902709] (-) TimerEvent: {}
+[0.910354] (enpm673_final_proj) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3")\n'}
+[0.921613] (enpm673_final_proj) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.926169] (enpm673_final_proj) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.944073] (enpm673_final_proj) StdoutLine: {'line': b'--   Found libzmq, version 4.3.2\n'}
+[1.000181] (enpm673_final_proj) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.003297] (-) TimerEvent: {}
+[1.016708] (enpm673_final_proj) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[1.066301] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[1.066920] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.086420] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.091645] (enpm673_final_proj) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.103473] (-) TimerEvent: {}
+[1.111921] (enpm673_final_proj) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[1.165652] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[1.166235] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[1.166459] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.166638] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.166713] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.180650] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.181727] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[1.182079] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.182950] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.184955] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[1.185421] (enpm673_final_proj) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.204095] (-) TimerEvent: {}
+[1.230600] (enpm673_final_proj) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.250256] (enpm673_final_proj) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[1.304299] (-) TimerEvent: {}
+[1.305118] (enpm673_final_proj) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.321837] (enpm673_final_proj) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[1.371514] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[1.372063] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.372537] (enpm673_final_proj) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[1.373464] (enpm673_final_proj) StdoutLine: {'line': b'-- Gazebo version: 11.11\n'}
+[1.378431] (enpm673_final_proj) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[1.404775] (-) TimerEvent: {}
+[1.491393] (enpm673_final_proj) StdoutLine: {'line': b'-- Found cv_bridge: 3.1.3 (/opt/ros/galactic/share/cv_bridge/cmake)\n'}
+[1.505269] (-) TimerEvent: {}
+[1.606165] (-) TimerEvent: {}
+[1.624970] (enpm673_final_proj) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[1.643136] (enpm673_final_proj) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.644031] (enpm673_final_proj) StdoutLine: {'line': b'-- Build files have been written to: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj\n'}
+[1.671044] (enpm673_final_proj) StdoutLine: {'line': b'[ 50%] Built target cpp_enpm673_final_proj\n'}
+[1.671723] (enpm673_final_proj) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_symlink_enpm673_module\n'}
+[1.698753] (enpm673_final_proj) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/animated_box.dir/src/animated_box.cpp.o\x1b[0m\n'}
+[1.706417] (-) TimerEvent: {}
+[1.807234] (-) TimerEvent: {}
+[1.904949] (enpm673_final_proj) StdoutLine: {'line': b'running egg_info\n'}
+[1.905892] (enpm673_final_proj) StdoutLine: {'line': b'writing enpm673_module.egg-info/PKG-INFO\n'}
+[1.906461] (enpm673_final_proj) StdoutLine: {'line': b'writing dependency_links to enpm673_module.egg-info/dependency_links.txt\n'}
+[1.907218] (enpm673_final_proj) StdoutLine: {'line': b'writing top-level names to enpm673_module.egg-info/top_level.txt\n'}
+[1.907392] (-) TimerEvent: {}
+[1.941227] (enpm673_final_proj) StdoutLine: {'line': b"reading manifest file 'enpm673_module.egg-info/SOURCES.txt'\n"}
+[1.941828] (enpm673_final_proj) StdoutLine: {'line': b"writing manifest file 'enpm673_module.egg-info/SOURCES.txt'\n"}
+[1.969494] (enpm673_final_proj) StdoutLine: {'line': b'[ 75%] Built target ament_cmake_python_build_enpm673_module_egg\n'}
+[2.007740] (-) TimerEvent: {}
+[2.108214] (-) TimerEvent: {}
+[2.208961] (-) TimerEvent: {}
+[2.309783] (-) TimerEvent: {}
+[2.410865] (-) TimerEvent: {}
+[2.511248] (-) TimerEvent: {}
+[2.611856] (-) TimerEvent: {}
+[2.712651] (-) TimerEvent: {}
+[2.813260] (-) TimerEvent: {}
+[2.914607] (-) TimerEvent: {}
+[3.015697] (-) TimerEvent: {}
+[3.116219] (-) TimerEvent: {}
+[3.217391] (-) TimerEvent: {}
+[3.318297] (-) TimerEvent: {}
+[3.418874] (-) TimerEvent: {}
+[3.519545] (-) TimerEvent: {}
+[3.620283] (-) TimerEvent: {}
+[3.721623] (-) TimerEvent: {}
+[3.822579] (-) TimerEvent: {}
+[3.923290] (-) TimerEvent: {}
+[4.024303] (-) TimerEvent: {}
+[4.124926] (-) TimerEvent: {}
+[4.225912] (-) TimerEvent: {}
+[4.326366] (-) TimerEvent: {}
+[4.427285] (-) TimerEvent: {}
+[4.528299] (-) TimerEvent: {}
+[4.628804] (-) TimerEvent: {}
+[4.729485] (-) TimerEvent: {}
+[4.829990] (-) TimerEvent: {}
+[4.930430] (-) TimerEvent: {}
+[5.031098] (-) TimerEvent: {}
+[5.132228] (-) TimerEvent: {}
+[5.232609] (-) TimerEvent: {}
+[5.333154] (-) TimerEvent: {}
+[5.434458] (-) TimerEvent: {}
+[5.534913] (-) TimerEvent: {}
+[5.635493] (-) TimerEvent: {}
+[5.736576] (-) TimerEvent: {}
+[5.837454] (-) TimerEvent: {}
+[5.937975] (-) TimerEvent: {}
+[6.038601] (-) TimerEvent: {}
+[6.139369] (-) TimerEvent: {}
+[6.239773] (-) TimerEvent: {}
+[6.340889] (-) TimerEvent: {}
+[6.441777] (-) TimerEvent: {}
+[6.542841] (-) TimerEvent: {}
+[6.643500] (-) TimerEvent: {}
+[6.744425] (-) TimerEvent: {}
+[6.845261] (-) TimerEvent: {}
+[6.946196] (-) TimerEvent: {}
+[7.046825] (-) TimerEvent: {}
+[7.147700] (-) TimerEvent: {}
+[7.248500] (-) TimerEvent: {}
+[7.349125] (-) TimerEvent: {}
+[7.450747] (-) TimerEvent: {}
+[7.552628] (-) TimerEvent: {}
+[7.653438] (-) TimerEvent: {}
+[7.754254] (-) TimerEvent: {}
+[7.854979] (-) TimerEvent: {}
+[7.955717] (-) TimerEvent: {}
+[8.056450] (-) TimerEvent: {}
+[8.156879] (-) TimerEvent: {}
+[8.257328] (-) TimerEvent: {}
+[8.357948] (-) TimerEvent: {}
+[8.458994] (-) TimerEvent: {}
+[8.559634] (-) TimerEvent: {}
+[8.660315] (-) TimerEvent: {}
+[8.761376] (-) TimerEvent: {}
+[8.861942] (-) TimerEvent: {}
+[8.963235] (-) TimerEvent: {}
+[9.064519] (-) TimerEvent: {}
+[9.165015] (-) TimerEvent: {}
+[9.265749] (-) TimerEvent: {}
+[9.366609] (-) TimerEvent: {}
+[9.467476] (-) TimerEvent: {}
+[9.568171] (-) TimerEvent: {}
+[9.669238] (-) TimerEvent: {}
+[9.770111] (-) TimerEvent: {}
+[9.870551] (-) TimerEvent: {}
+[9.971112] (-) TimerEvent: {}
+[10.072191] (-) TimerEvent: {}
+[10.173134] (-) TimerEvent: {}
+[10.274069] (-) TimerEvent: {}
+[10.375029] (-) TimerEvent: {}
+[10.475838] (-) TimerEvent: {}
+[10.576384] (-) TimerEvent: {}
+[10.676869] (-) TimerEvent: {}
+[10.777679] (-) TimerEvent: {}
+[10.878202] (-) TimerEvent: {}
+[10.979094] (-) TimerEvent: {}
+[11.079961] (-) TimerEvent: {}
+[11.180854] (-) TimerEvent: {}
+[11.281381] (-) TimerEvent: {}
+[11.381872] (-) TimerEvent: {}
+[11.482347] (-) TimerEvent: {}
+[11.582831] (-) TimerEvent: {}
+[11.683429] (-) TimerEvent: {}
+[11.784370] (-) TimerEvent: {}
+[11.884959] (-) TimerEvent: {}
+[11.986302] (-) TimerEvent: {}
+[12.087211] (-) TimerEvent: {}
+[12.188823] (-) TimerEvent: {}
+[12.289653] (-) TimerEvent: {}
+[12.390369] (-) TimerEvent: {}
+[12.490915] (-) TimerEvent: {}
+[12.591886] (-) TimerEvent: {}
+[12.692865] (-) TimerEvent: {}
+[12.794283] (-) TimerEvent: {}
+[12.894957] (-) TimerEvent: {}
+[12.995525] (-) TimerEvent: {}
+[13.096361] (-) TimerEvent: {}
+[13.196871] (-) TimerEvent: {}
+[13.297476] (-) TimerEvent: {}
+[13.398506] (-) TimerEvent: {}
+[13.499258] (-) TimerEvent: {}
+[13.600022] (-) TimerEvent: {}
+[13.696555] (enpm673_final_proj) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libanimated_box.so\x1b[0m\n'}
+[13.700282] (-) TimerEvent: {}
+[13.800858] (-) TimerEvent: {}
+[13.836254] (enpm673_final_proj) StdoutLine: {'line': b'[100%] Built target animated_box\n'}
+[13.857623] (enpm673_final_proj) CommandEnded: {'returncode': 0}
+[13.901156] (-) TimerEvent: {}
+[13.962461] (enpm673_final_proj) JobProgress: {'identifier': 'enpm673_final_proj', 'progress': 'install'}
+[14.001424] (-) TimerEvent: {}
+[14.041026] (enpm673_final_proj) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '--install', '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj'], 'cwd': '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '2014'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('OLDPWD', '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1913'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b3984497af4d44736d47b3168153e3c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:61925'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/leoo/.gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2049,unix/ubuntu:/tmp/.ICE-unix/2049'), ('INVOCATION_ID', 'b2963a75ad7047ea873a8edcd9f63537'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/45e46f81_139f_4cf2_94e1_f06e77aa243a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/build/enpm673_final_proj'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b3984497af4d44736d47b3168153e3c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[14.101848] (enpm673_final_proj) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.102106] (-) TimerEvent: {}
+[14.102359] (enpm673_final_proj) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.102575] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/enpm673_final_proj/cpp_enpm673_final_proj\n'}
+[14.106172] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/environment/pythonpath.sh\n'}
+[14.110005] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/environment/pythonpath.dsv\n'}
+[14.113301] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages//enpm673_module.egg-info/PKG-INFO\n'}
+[14.117352] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages//enpm673_module.egg-info/SOURCES.txt\n'}
+[14.121202] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages//enpm673_module.egg-info/dependency_links.txt\n'}
+[14.124622] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages//enpm673_module.egg-info/top_level.txt\n'}
+[14.128859] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module/__init__.py\n'}
+[14.131904] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module/enpm673_final_proj.py\n'}
+[14.136421] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/enpm673_final_proj/enpm673_final_proj_main.py\n'}
+[14.139666] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/enpm673_final_proj/findhorizonline.py\n'}
+[14.143093] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/launch//enpm673_world.launch.py\n'}
+[14.146082] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/enpm673_final_proj/libanimated_box.so\n'}
+[14.149409] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/worlds//enpm673.world\n'}
+[14.153348] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/worlds//animated_box.world\n'}
+[14.157650] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/floor_tile/model.config\n'}
+[14.160375] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/floor_tile/model.sdf\n'}
+[14.163158] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/lane_markings/model.config\n'}
+[14.165951] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/lane_markings/model.sdf\n'}
+[14.170450] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/paper_letter_size/model.config\n'}
+[14.173785] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/paper_letter_size/model.sdf\n'}
+[14.176823] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/sto.pt\n'}
+[14.182072] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/textured_floor/model.config\n'}
+[14.184940] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/textured_floor/model.sdf\n'}
+[14.188121] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/umd_turtlebot3_waffle_pi/model.config\n'}
+[14.190953] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj//models/umd_turtlebot3_waffle_pi/model.sdf\n'}
+[14.194739] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/ament_index/resource_index/package_run_dependencies/enpm673_final_proj\n'}
+[14.197735] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/ament_index/resource_index/parent_prefix_path/enpm673_final_proj\n'}
+[14.200711] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/environment/ament_prefix_path.sh\n'}
+[14.202640] (-) TimerEvent: {}
+[14.203855] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/environment/ament_prefix_path.dsv\n'}
+[14.207692] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/environment/path.sh\n'}
+[14.210744] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/environment/path.dsv\n'}
+[14.214079] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/local_setup.bash\n'}
+[14.218904] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/local_setup.sh\n'}
+[14.222290] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/local_setup.zsh\n'}
+[14.225467] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/local_setup.dsv\n'}
+[14.229541] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/package.dsv\n'}
+[14.234239] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/ament_index/resource_index/packages/enpm673_final_proj\n'}
+[14.239867] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/cmake/enpm673_final_projConfig.cmake\n'}
+[14.242777] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/cmake/enpm673_final_projConfig-version.cmake\n'}
+[14.245550] (enpm673_final_proj) StdoutLine: {'line': b'-- Symlinking: /home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/share/enpm673_final_proj/package.xml\n'}
+[14.278970] (enpm673_final_proj) StdoutLine: {'line': b"Listing '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module'...\n"}
+[14.279213] (enpm673_final_proj) StdoutLine: {'line': b"Compiling '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module/__init__.py'...\n"}
+[14.279271] (enpm673_final_proj) StdoutLine: {'line': b"Compiling '/home/leoo/Documents/GitHub/ROS_2_TurtleBot_perception_project/enpm673_final_proj/install/enpm673_final_proj/lib/python3.8/site-packages/enpm673_module/enpm673_final_proj.py'...\n"}
+[14.303396] (enpm673_final_proj) CommandEnded: {'returncode': 0}
+[14.303935] (-) TimerEvent: {}
+[14.404525] (-) TimerEvent: {}
+[14.432219] (enpm673_final_proj) JobEnded: {'identifier': 'enpm673_final_proj', 'rc': 0}
+[14.433523] (-) EventReactorShutdown: {}

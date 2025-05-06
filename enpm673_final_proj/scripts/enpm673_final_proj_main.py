@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 import time
 import os
 from launch_ros.substitutions import FindPackageShare
+from rclpy.qos import QoSProfile, ReliabilityPolicy
 
 
 # Record the start time
@@ -35,6 +36,11 @@ class ImageSubscriber(Node):
         self.frame_count = 0
         self.previous_frame = None
         self.wait_counter = 0
+        
+        qos_profile = QoSProfile(
+            reliability=ReliabilityPolicy.BEST_EFFORT,
+             depth=10
+        )
         
         # Set up ROS image subscription
         self.subscription = self.create_subscription(
